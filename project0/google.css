@@ -1,0 +1,77 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+body{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+  height: 100vh;
+}
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 100vh;
+}
+.hero-headline {
+    font-family: 'Press Start 2P', cursive;
+    background: radial-gradient(#eff1ff, #000);
+    background-size: 100% 200%;
+    background-position: 50% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 3.9rem
+}
+.png {
+  height: 50%;
+}
+.form {
+  padding: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+.button {
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 7px;
+  font-size: 1.2em;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1);
+  /*ease*/
+  transition: 0.1s ease;
+}
+#button_1 {
+            background: #3ecf4a;
+            border: 1px solid rgba(18, 70, 13, 0.6);
+        }
+
+        #button_2 {
+            background: #fd7676;
+            border: 1px solid rgba(78, 10, 10, 0.6);
+        }
+
+        #button_1:hover {
+            background: #12ff25;
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+        }
+
+        #button_2:hover {
+            background: #ff1c1c;
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+        }
+.search {
+  width: 50vw;
+  height: 35px;
+  border-radius: 35px;
+
+}
